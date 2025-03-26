@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frankline Orangi - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">FO</h1>
+      <ul class="nav-links">
+        <li><a href="#profile">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="theme-toggle">
+        <i class="fas fa-moon"></i>
+      </div>
+      <div class="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Frankline Orangi</h1>
+        <p class="tagline">I’m a <span class="typed-text"></span></p>
+        <a href="#projects" class="btn">Discover My Work</a>
+      </div>
+    </div>
+    <div class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </header>
+
+  <!-- Profile Section -->
+<section id="profile" class="section fade-in">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="profile-wrapper">
+      <div class="profile-card">
+        <div class="profile-avatar">
+          <img src="assets/images/Chat5.jpeg" alt="Frankline Orangi" class="profile-pic">
+          <div class="avatar-overlay"></div>
+        </div>
+        <div class="profile-details">
+          <h3>Frankline Orangi</h3>
+          <p class="bio">
+            I’m a forward-thinking computer scientist obsessed with turning ideas into reality through code. 
+            From scalable apps to innovative solutions, I blend creativity with tech to push boundaries. 
+            Ready to collaborate on the next big thing?
+          </p>
+          <div class="stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="50">18</span>+
+              <p>Projects</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="5">3</span>+
+              <p>Years Coding</p>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="10">4</span>+
+              <p>Tech Stacks</p>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/Young-black" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/youngblack" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/youngblackston3" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:youngblackstone7@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section fade-in">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item" data-tooltip="Python, Java, JS, C++">
+          <i class="fas fa-code"></i>
+          <p>Coding</p>
+        </div>
+        <div class="skill-item" data-tooltip="HTML, CSS, React, Node.js">
+          <i class="fas fa-laptop-code"></i>
+          <p>Web Dev</p>
+        </div>
+        <div class="skill-item" data-tooltip="MySQL, MongoDB">
+          <i class="fas fa-database"></i>
+          <p>Databases</p>
+        </div>
+        <div class="skill-item" data-tooltip="Git, Docker, VS Code">
+          <i class="fas fa-tools"></i>
+          <p>Tools</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+<section id="projects" class="section fade-in">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="projects-showcase">
+      <div class="project-item" data-project="ecommerce">
+        <div class="project-preview">
+          <img src="assets/images/Chat1.jpeg" alt="E-Commerce Platform">
+          <div class="project-hover">
+            <h3>E-Commerce Platform</h3>
+            <p>A next-gen online store with React, Node.js, and seamless payment integration.</p>
+            <a href="https://webapp-todo-nine.vercel.app/" target="_blank" class="btn">Launch Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-item" data-project="chat">
+        <div class="project-preview">
+          <img src="assets/images/Chat2.jpeg" alt="Real-Time Chat">
+          <div class="project-hover">
+            <h3>Real-Time Chat</h3>
+            <p>Instant messaging app powered by WebSockets and React for fluid communication.</p>
+            <a href="https://webapp-todo-nine.vercel.app/" target="_blank" class="btn">Launch Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-item" data-project="task">
+        <div class="project-preview">
+          <img src="assets/images/Chat3.jpeg" alt="Task Manager">
+          <div class="project-hover">
+            <h3>Task Manager</h3>
+            <p>Smart task tracker built with Python, Flask, and SQLite for efficiency.</p>
+            <a href="https://task-planner-henna.vercel.app/" target="_blank" class="btn">Launch Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-nav">
+      <button class="nav-arrow prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="nav-arrow next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>Have a project idea or just want to connect? Drop me a line!</p>
+      <form class="contact-form" id="contact-form" action="/api/contact" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+</html>
