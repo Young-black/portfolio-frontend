@@ -46,7 +46,7 @@ body.dark-mode {
 }
 
 .logo img {
-  height: 90px; /* Adjust the height of the logo as needed */
+  height: 50px; /* Adjust the height of the logo as needed */
   width: auto; /* Maintain aspect ratio */
 }
 
